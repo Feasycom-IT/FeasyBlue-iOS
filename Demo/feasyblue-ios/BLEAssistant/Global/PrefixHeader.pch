@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  BLEAssistant
+//
+//  Created by 余明悦 on 16/7/22.
+//  Copyright © 2016年 feasycom. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define APPVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+#define LS(key) \
+    [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
+
+#define kScreen_Height   ([UIScreen mainScreen].bounds.size.height)
+#define kScreen_Width    ([UIScreen mainScreen].bounds.size.width)
+#define KScreen_Scale    ([UIScreen mainScreen].scale)
+#define kStatusBar_Height ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define kNavBar_Height ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? 88 : 64)
+#define kTabBar_Height ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? 83 : 49)
+#define kTabBar_Safe_Height ([[UIApplication sharedApplication] statusBarFrame].size.height > 20 ? 34 : 0)
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UIViewController+Extension.h"
+    #import "Masonry.h"
+    #import "UIColor+FEHexString.h"
+    #import "MBProgressHUD.h"
+    #import <Bugly/Bugly.h>
+    #import "UIImageExtend.h"
+    #import "FEUserDefaultCache.h"
+    #import <SVProgressHUD/SVProgressHUD.h>
+    #import "FENotificationRegister.h"
+    #import "FBlueSDKPublicHeader.h"
+    #import "UIView+FWGetCurrentVC.h"
+    #import "UIViewController+NavigationHeight.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

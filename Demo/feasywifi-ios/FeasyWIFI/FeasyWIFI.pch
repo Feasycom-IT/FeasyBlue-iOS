@@ -1,0 +1,40 @@
+//
+//  FeasyWIFI.pch
+//  FeasyWIFI
+//
+//  Created by ericj on 2018/7/5.
+//  Copyright © 2018年 Feasycom. All rights reserved.
+//
+
+#ifndef FeasyWIFI_pch
+#define FeasyWIFI_pch
+
+#ifdef __OBJC__
+
+#import "MacroDefinition.h"
+
+#import "UILabel+FWLabel.h"
+#import "UIButton+FWButton.h"
+#import "NSString+FWString.h"
+#import "Header.h"
+#import "UIViewController+Extension.h"
+#import "FWMacro.h"
+#import "FEUserDefaultCache.h"
+
+// pod
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <SVProgressHUD.h>
+#import "MBProgressHUD.h"
+#import <Bugly/Bugly.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
+//FSCSDK
+#import "FEBluetoothSDK/FBlueSDKPublicHeader.h"
+
+//多国语言
+#define LS(key) NSLocalizedString(key, nil)
+
+#endif
+
+#endif /* FeasyWIFI_pch */

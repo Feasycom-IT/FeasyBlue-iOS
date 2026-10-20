@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  FeasyWIFI
+
+  Created by chenchanghua on 2021/12/9.
+  Copyright © 2021 Feasycom. All rights reserved.
+*/
+
+"Sort" = "Sort";
+"Filter" = "Filter";
+"Sure" = "OK";
+"SelecteDevice" = "Selecte Device";
+"ConnectionFailed" = "ConnectionFailed";
+"ConnectionDisconnected" = "ConnectionDisconnected";
+"Setting" = "Setting";
+"BluetoothDistributionNetwork" = "BluetoothDistributionNetwork";
+"OTAUpgrade" = "OTAUpgrade";
+"GatewayConfiguation" = "GatewayConfiguation";
+"ConfigurationFailed" = "ConfigurationFailed";
+"DistributionNetworkFailed" = "DistributionNetworkFailed";
+"Failed to enter command mode" = "Failed to enter command mode";
+"Failed to query module IP" = "Failed to query module IP";
+"Failed to query module version" = "Failed to query module version";
+"Please enter the firmware name" = "Please enter the firmware name";
+"Please configure the network first" = "Please configure the network first";
+"Update successed" = "Update successed";
+"Upgrade failed, please try again" = "Upgrade failed, please try again";
+"Restore factory settings successfully" = "Restore factory settings successfully";
+"Factory reset failed" = "Factory reset failed";
+"Upgrade" = "Upgrade";
+"Inquire" = "Query";
+"Module IP" = "Module IP:";
+"Module firmware version" = "Module firmware version";
+"Static IP" = "Static IP";
+
+/// 设置
+"Please try again when open bluetooth" = "Please try again when open bluetooth";
+"The device is disconnected from Bluetooth" = "The device is disconnected from Bluetooth";
+
+/// 关于
+"About" = "About";
+
+/// 反馈
+"FeedBack" = "FeedBack";
+"Advices" = "Advices";
+"Dysfunction" = "Dysfunction";
+"AbnormalUI" = "AbnormalUI";
+"Cooperation" = "Cooperation";
+"Submit" = "Submit";
+
+"Back" = "back";
+"NoNetwork" = "No network,please try again later.";
+"Company" = "Company";
+"Telephone" = "Telephone";
+"Web" = "Web";
+"Mail" = "Mail";
+"Wechat" = "Wechat";
+"Version" = "Version";
+"CompanyProfile" = "Profile";
+"More" = "more";
+"CompanyName" = "Shenzhen Feasycom Technology Co.,Ltd";
+"Save" = "save";
+"Unkown" = "unknow";
+"Connecting" = "connecting...";
+"Cancel" = "cancel";
+"OK" = "OK";
+"Upgrading firmware, please wait" = "Upgrading firmware, please wait";
+"Upgrading firmware, please wait(%ld%%)" = "Upgrading firmware, please wait(%ld%%)";
+"OTA upgrade requires completing Bluetooth network distribution first" = "OTA upgrade requires completing Bluetooth network distribution first";
+"Module firmware upgrade success" = "Module firmware upgrade success";
+"Module firmware upgrade fail" = "Module firmware upgrade fail";
+"Restore factory settings" = "Restore factory settings";
+"Do you want to restore the module to its factory settings" = "Do you want to restore the module to its factory settings";
+"Restoring factory settings, please wait" = "Restoring factory settings, please wait";
+"Firmware Name:" = "FirmName:";
+"ModuleVersion" = "Version:";
+"Password" = "Password:";
+"Please enter a WiFi name" = "Please enter a WiFi name";
+"Please enter a WiFi password" = "Please enter a WiFi password";
+"Please enter the preset static IP" = "Please enter the preset static IP";
+"Please enter the preset GW" = "Please enter the preset static GW";
+"Please enter the preset MASK" = "Please enter the preset MASK";
+"Please enter the preset DNS" = "Please enter the preset DNS";
+"SSID input error, please re-enter" = "SSID input error, please re-enter";
+"Static IP input error, please re-enter" = "Static IP input error, please re-enter";
+"Configuring network" = "Configuring network";
+"Config network success" = "Config network success";
+"IP Address" = "IP Address:";
+"Start configuring network" = "Start configuring network";
+"Save to mobile photo album" = "Save to mobile photo album";
+"The picture has been saved to the phone album" = "The picture has been saved to the phone album";
+"Please input feedback content" = "Please input feedback content";
+"Feedback success" = "Feedback success";
+"Feedback fail" = "Feedback fail";
+"FeasycomProfile" = "     Feasycom is a professional and innovative high-tech enterprise equipped with a senior and excellent research and development team, mainly engaged in the design, research and production of short distance communication solutions. Due to our extensive industry experience, our company can provide specialized customized services according to the various needs of our customers. At present, our company has built end-to-end solutions in fields such as the Internet of Things, mobile connectivity, automotive electronics, healthcare, and smart home, and has established close cooperative relationships with numerous domestic and foreign partners. \n\n     The Bluetooth module products of Feiyitong mainly cover Bluetooth versions 4.0, 3.0, 2.1, etc. For different customers and application environments, we have launched Bluetooth 4.0 low-power series modules, Bluetooth 4.0 dual-mode series modules, classic Bluetooth 2.1 series modules, etc., mainly used in Bluetooth data transmission, Bluetooth networking, Bluetooth data transmission+audio and other applications. We can provide customers with customized products and one-stop solutions and services. \n\n     In addition, Feasycom has also launched a complete set of Bluetooth solutions such as Bluetooth barcode guns, Bluetooth gateways, TWS speakers, smart toys, etc., which have been widely used in high-tech enterprises at home and abroad, providing a simpler, more free, and one-stop communication mode for end users.";
+"WeChatOffical" = "     Based on the WeChat public platform, we have launched the WeChat hardware platform. Through the connection protocol specified by the platform, various smart devices such as Bluetooth devices, WIFI devices, and other mobile network devices can easily access WeChat, completing the connection of one person, one service for each device.";
+"ServiceTenet" = "     Daring to be the first is the key for Feasycom to consistently rank among the industry leaders. In the near future, our company will accumulate knowledge and provide users with more professional, unique, and innovative integrated Bluetooth technology products with our existing advanced and professional Bluetooth module experience.";
+"Connect" = "Connect";
+"ProtocolSelect" = "ProtocolSelect";
+"MQTTConfiguring" = "MQTT Configuring";
+"TCPConfiguring" = "TCP Configuring";
+"TCP Client" = "TCP Client";
+"Tcp client connecting" = "Tcp client connecting";
+"Tcp client disconnect" = "Tcp client disconnect";
+"Tcp client connected" = "Tcp client connected";
+"SEND" = "SEND";
+"CLEAR" = "CLEAR";
+"RECIEVE" = "RECIEVE";

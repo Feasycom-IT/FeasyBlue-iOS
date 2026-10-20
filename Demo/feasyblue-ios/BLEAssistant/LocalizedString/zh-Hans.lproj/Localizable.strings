@@ -1,0 +1,471 @@
+"ok" = "确定";
+"cancel" = "取消";
+"Back" = "返回";
+"Close" = "关闭";
+
+"title" = "标题";
+"message" = "消息";
+
+"sort"                  ="排序";
+"Filter"                ="过滤";
+"minimumRssi"           ="";
+
+"communication"         ="通讯";
+"properitiesDefining"   ="修改设备信息";
+"firmwareUpgrade"      ="空中升级";
+
+"unname"                    ="未命名";
+"disconnected"            ="设备已经断开";
+"connecting" = "连接中";
+"connected"                 ="连接成功";
+"ConnectionFailed"            ="连接失败";
+"reconnect"                  ="重连";
+
+"success"                    ="成功";
+"fail"                            ="失败";
+"sendFail"                   ="发送失败~";
+"select"                       ="选择";
+"sendFile"                   ="发送文件";
+"stopSend"                  ="停止发送";
+
+"stopScan"                  ="停止扫描";
+"scan"                         ="扫描";
+"rssiValue"                  ="-50";
+"noRightCharacteristic" = "此特征无匹配";
+
+//导航栏
+"n_read"                    ="接收";
+"n_writeRe"               ="发送带回应";
+"n_write"                    ="发送";
+
+// 普通通讯界面 communication
+"communication_transmissionConfiguration" = "  传输配置  ";
+"communication_export" = "导出";
+"communication_clear" = "清除数据";
+"communication_receiveTip" = "累计接收:";
+"communication_byteTip" = "字节";
+"communication_packageTip" = "包";
+"communication_sendoutTip" = "累计发送:";
+"communication_byte" = "字节";
+"communication_frequency" = "发送间隔";
+"communication_circular" = "循环发送";
+"communication_send" = "发送";
+"communication_sendFile" = "发送文件";
+"communication_sended" = "已发送:";
+"communication_sendTotal" = "需发送:";
+"communication_sendSpeed" = "速率:";
+"communication_sendTime" = "时间:";
+
+
+
+"total"                        ="总大小：";
+"clickToHidden"        ="点击隐藏";
+
+"service"                   ="UUID";
+"readValue"               =" Read";
+"writeNoRe"               =" WriteWithoutResponse";
+"writeRe"                   =" Write";
+"readNoRe"                =" Notify";
+"readRe"                    =" Indicate";
+"deviceInformation"    ="Device Information";
+"systemID"                 ="System ID String";
+"serialNumber"          = "Serial Number String";
+"firmwareRevision"    ="Firmware Revision String";
+"softwareRevision"    ="Software Revision String";
+"hardwareRevision"    ="Hardware Revision String";
+"manufacturerName" ="Manufacturer Name String";
+"modelNumber"         ="Model Number String";
+"read"                        ="读取";
+"hex"                          ="十六进制：";
+"utf8"                          ="UTF-8：";
+"bytes"                       ="字节";
+"rssiHidden"              ="隐藏信号值";
+"rssiShow"                 ="显示信号值";
+
+"forFail"                       ="获取失败";
+"successName"          ="完成数：";
+"modifiedCount"           = "完成数：";
+"noServer"                 ="找不到服务，重新连接。";
+"nameOK"                  ="设备名测试通过！";
+"RSSIOK"                   ="RSSI测试通过！";
+"checkServerUUID"    ="检查服务UUID";
+"checkNotUUID"         ="检查通知UUID";
+"checkWriUUID"         ="检查可写UUID";
+"serverUUIDOK"         ="服务UUID测试成功！";
+"notUUIDOK"              ="通知UUID测试成功！";
+"wriUUIDOK"              ="可写UUID测试成功！";
+"sent"                          ="数据已发送......";
+"sendErr"                    ="数据发送失败 ~";
+"reEqualToSe"            ="接收数据与设置一致";
+"reNoEqualToSe"       ="接收到的数据与指定数据不一致";
+"seNoEqualRe"          ="发送的数据与指定数据不一致";
+"testSuccess"             ="测试成功！";
+"reErr"                        ="接收失败 ~";
+"seErr"                       ="发送失败 ~";
+"testOK"                     ="已测试通过";
+
+"warning"                    ="警告";
+"timeout"                     ="运行超时";
+
+"goBack"                     ="返回";
+"firmware"                   ="固件";
+"noSelectFirmware"    ="未选择固件";
+"haveFirmware"          ="已选择固件，等待升级。";
+"noFile"                       ="文件不存在，请选择固件。";
+"Upgrade failed: the firmware is inappropriate" = "升级失败：固件不合适";
+"The selected firmware file is invalid, please select again" = "所选固件文件无效，请重新选择";
+"The selected firmware does not pass the verification" = "所选固件校验不通过";
+"If you continue to use the firmware for forced upgrade, the module may become unusable. Please be careful" = "继续使用该固件强制升级可能会导致模块无法使用，请谨慎操作";
+"Mandatory use" = "强制使用";
+"reselect" = "重新选择";
+"unknown" = "未知";
+
+
+"updating"                   ="正在升级... ...";
+"upgrade_succeeded" = "升级成功";
+"firmwareUpdata"        ="固件升级";
+"checking"                   ="正在校验... ...";
+"verificationOK"           ="产品验证通过！";
+"verificationER"           ="产品验证失败~";
+"chooseOne"               ="请选择";
+"transferDidFinish"      ="升级完成！";
+"transferDidAbort"       ="升级中断，请重新升级！";
+"hundred"                    ="100";
+
+"question"                    ="咨询";
+"helloyu"                      ="余先生你好：<br>";
+"softwareProblem"       ="软件问题";
+
+"selectFirmware"                   ="选择固件";
+"importFirmware"                   ="导入固件";
+"selectedFirmware"                 ="已选固件:";
+"unselectedFirmware"               ="未选择固件";
+"model"                            ="型号";
+"version"                          ="版本";
+"appVersion"                       ="APP版本";
+"blVersion"                        ="BL版本";
+"currentModule"                    ="目前模块";
+"upgradeFirmware"                  ="升级固件";
+"upgradeAndRestoreFactorySettings" ="升级并恢复出厂设置";
+"Auto upgrade"                     = "自动升级";
+"startTheUpgrade"                  ="开始升级";
+"waitForTheUpgrade"                ="等待升级";
+"updateCompleted"                  ="升级完成";
+"updateFailed"                     ="升级失败";
+"updateFailed:timeout"             ="升级失败：超时";
+
+"parametricModify"                 ="参数修改";
+"start"                            ="开始";
+
+"Infomation" = "提示";
+"Firmware download succeeded" = "固件下载成功";
+"Firmware download failed" = "固件下载失败";
+"Prompt: Please confirm whether the firmware path is correct and valid" = "提示：请确定固件路径是否正确有效";
+
+
+
+"modifiedCompleted"                ="修改成功";
+"modifiedFailed"                   ="修改失败";
+"readCompleted"                    ="读取成功";
+"readFailed"                       ="读取失败";
+"Enter OTA Status ing" = "正在进入空中指令模式";
+"Enter OTA Status Success" = "进入空中指令模式成功";
+"Enter OTA Status Faild" = "进入空中指令模式失败";
+"Disconnected BLE" = "断开连接";
+
+
+//modifiedTimeout                  =",状态为TIMEOUT...\r\n";
+"connectionTimeout" = "连接超时";
+
+"FEEDBACK" = "问题反馈";
+"feedback" = "反馈";
+"Submit" = "提交";
+"ADVICE" = "建议";
+"FUNCTION_EXCEPTION" = "功能异常";
+"UI_EXCEPTION" = "界面异常";
+"COOPERATION" = "合作";
+"FEEDBACK_SUCCEEDED" = "反馈成功！";
+"FEEDBACK_FAILED" = "反馈失败！";
+"OK" = "确定";
+"Please Input feedback content" = "请输入反馈内容";
+"No network" = "无网络，请稍后再试";
+"Save to system album" = "保存到手机系统相册";
+"Saved to system album" = "图片已保存到手机系统相册";
+
+"DOWNLOADING" = "正在下载...";
+"DOWNLOAD_SUCCEEDED" = "下载成功";
+"DOWNLOAD_FAILED" = "下载失败";
+
+"Import firmware" = "导入固件";
+"Get from QQ" = "从QQ获取文件";
+"Get from WeChat" = "从微信获取";
+"Get from WeCom" = "从企业微信获取";
+"Download from web" = "从网络下载";
+"Get from Documents folder" = "从Documents文件夹获取";
+"Please enter the download path of the firmware" = "请输入固件的下载路径";
+"Download file name" = "下载文件名";
+"Number of modifications completed" = "修改完成数";
+"None" = "缺少必要信息";
+"Please input a password" = "请输入密码";
+"Size: " = "大小：";
+"Update Time: " = "更新时间：";
+"Group: " = "组：";
+"Owner: " = "拥有者：";
+"Upload" = "上传";
+"Uploading" = "正在上传";
+"Upload Progress: " = "上传进度：";
+"Rename" = "重命名";
+"Return to the previous directory" = "返回上一级目录";
+"Clear" = "清除";
+"Not Selected" = "未选择";
+"Disconnected" = "连接断开";
+"Device Connecting" = "设备连接中……";
+"Properties: " = "特性：";
+
+////////////////////////////////////////////////////////////////////////////////
+// Home
+
+"DOCUMENTS" = "文档";
+"WEB_BROWSER" = "网页浏览器";
+"DOWNLOADER" = "下载器";
+"WIFI_TRANSFER" = "WiFi传输";
+"SETTINGS" = "设置";
+"ConnectedDevice" = "已连接设备";
+"InGroup" = "建群";
+"DisconnectAll" = "全断";
+"Reconnect" = "重连";
+"Broadcast" = "群发消息";
+"Mass messaging" = "群发通讯";
+"Please enter the content to be sent" = "请输入要发送的内容";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Common
+
+"YES" = "是";
+"NO" = "否";
+"OK" = "确定";
+"CANCEL" = "取消";
+"ERROR" = "错误";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// File System
+
+"COPY" = "复制";
+"CUT" = "剪切";
+"PASTE" = "粘贴";
+"RENAME" = "重命名";
+"DELETE" = "删除";
+"ZIP" = "压缩";
+"EXTRACT" = "解压缩";
+"EMAIL" = "邮件";
+"OPEN_IN" = "打开";
+
+"NEW_FOLDER" = "新建文件夹";
+"NEW_TEXT_FILE" = "新建文本文件";
+"PHOTO_LIBRARY" = "相册";
+"CAMERA" = "摄像机";
+
+"ALL" = "所有";
+"FOLDER" = "文件夹";
+"FILE" = "文件";
+
+"COPYING" = "正在复制……";
+"CUTTING" = "正在剪切……";
+"REMOVING" = "正在移除……";
+"ARCHIVING" = "正在压缩……";
+"EXTRACTING" = "正在解压缩……";
+"CANCELLING" = "正在取消……";
+
+"COPYING_FILES" = "正在拷贝文件……";
+"MOVING_FILES" = "正在移动文件……";
+
+"FINISHED_PROMPT" = "完成！";
+
+"COPYING_FILES_FAILED" = "拷贝文件失败";
+"COPYING_RECURSIVELY_FORMATTER" = "不能把文件夹'%@'拷贝到它的子目录。";
+
+"MOVING_FILES_FAILED" = "移除文件失败";
+"MOVING_RECURSIVELY_FORMATTER" = "不能把文件夹'%@'移动到它的子目录。";
+
+"EMAIL_SIZE_PROMPT" = "邮件大小限制为15MB。";
+"TEXT_FILE_SIZE_PROMPT" = "文本文件大小限制为20MB。";
+
+"SAVE_CHANGES" = "保存改变";
+"SAVE_CHANGES_MESSAGE" = "有更改，是否保存或放弃所有更改？";
+"OPEN_TEXT_FAILED_PROMPT" = "某些文件数据与指定的文本编码不匹配。在“设置”中尝试其他文本编码。";
+"SAVE_NAME" = "保存名称";
+"ITEM_EXISTS_FORMATTER" = "当前位置已存在名为%@的项目。想把它替换成新的吗？";
+"SAVE" = "保存";
+"DISCARD" = "丢弃";
+"REPLACE" = "替换";
+"IGNORE" = "忽略";
+
+"PASSWORD_PROMPT" = "输入文件密码：";
+"INVALID_PASSWORD" = "无效的密码";
+
+"BAD_IMAGE_TITLE" = "损坏的图片";
+"BAD_IMAGE_PROMPT" = "无法显示此图像，因为其格式无效。";
+
+"BAD_PDF_TITLE" = "损坏的PDF";
+"BAD_PDF_PROMPT" = "不能显示此PDF，因为其格式无效。";
+
+"SAVE_TO_PHOTO_LIBRARY" = "保存到相册";
+
+"PRINT" = "打印";
+"CANNOT_PRINT_TITLE" = "不能打印";
+"CANNOT_PRINT_PROMPT" = "此文件不能打印。";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Browser
+
+"BLANK_PAGE" = "空白";
+"SET_HOME_PAGE" = "设置为主页";
+"SAVE_PAGE" = "保存此页";
+"OPEN" = "打开";
+"COPY_LINK" = "拷贝链接";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Downloader
+
+"DOWNLOAD" = "下载";
+"DOWNLOADING" = "正在下载";
+"DOWNLOADING_STARTED" = "下载已经开始";
+"DOWNLOADING_STARTED_PROMPT" = "检查“下载器”部分";
+"NOT_NOW" = "不是现在";
+"GO_THERE" = "到那里去";
+"DOWNLOAD_AGAIN" = "重新下载";
+"DONE" = "完成";
+"FAILED" = "失败";
+"STOPPED" = "停止";
+"DOWNLOAD_CONFIRMATION_FORMATTER" = "文件“%@”已下载，是否再次下载？";
+"DT_START_STOP_ALL_TITLE" = "启动/停止所有挂起的下载";
+"START" = "开始";
+"STOP" = "停止";
+"START_ALL" = "开始所有";
+"STOP_ALL" = "停止所有";
+"DT_CLEAR_ALL_TITLE" = "清除已完成的下载";
+"DT_CLEAR_ALL_PROMPT" = "是否清除所有已完成的下载？";
+"DT_ALL_CLEARED_PROMPT" = "没有已完成的下载。";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// WiFi Transfer
+
+"WIFI_STATUS_ON" = "WiFi状态：开启";
+"WIFI_STATUS_OFF" = "WiFi状态：关闭";
+"WIFI_DETAIL_FORMATTER" = "您现在可以通过WiFi连接到您的%@。 使用以下地址之一，就像你看到的那样：\r\n1. http://%@:%u\r\n2. http://%@:%u";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Settings
+"setting" = "设置";
+"Parameter modification" = "参数修改";
+"OTA" = "空中升级";
+"SORTING_FILES" = "排序文件";
+"FSSortingMode" = "排序模式";
+"FSSortingOrder" = "排序顺序";
+"SORT_BY_NAME" = "按名称排序";
+"SORT_BY_DATE" = "按日期排序";
+"SORT_BY_KIND" = "按类型排序";
+"SORT_BY_SIZE" = "按名尺寸排序";
+"ASCENDING" = "升序";
+"DESCENDING" = "降序";
+
+"SCREEN_ORIENTATION" = "屏幕方向";
+"FILE_BROWSER" = "文件浏览器";
+"VIEWING_FILES" = "查看文件";
+"WEB_BROWSER" = "网页浏览器";
+"LOCK_ORIENTATION" = "锁定方向";
+"SHOW_EXTENSIONS" = "显示扩展名";
+"VIEWING_TXT_FILES" = "查看TXT文件";
+"TXT_FILES" = "TXT文件";
+"HOME_PAGE" = "主页";
+"FONT" = "字体";
+"NAME" = "名称";
+"SIZE" = "大小";
+"ENCODING" = "编码";
+"FONT_SIZE" = "字体大小";
+"Password" = "密码";
+"INPUT_QUESTION_PROMPT" = "请输入反馈问题。";
+"Bluetooth is powered off" = "蓝牙未开启";
+"Password is more than 8 numbers" = "密码超过8位数字";
+"INPUT_TOO_MUCH_PROMPT" = "输入的字符数超过512个";
+"Save to photo library" = "保存到相册";
+"Image saved" = "图片已保存";
+"MODULE_NOT_MATCHED" = "设备的型号跟文件的型号不匹配";
+"FeasyBlue requires Bluetooth" = "请打开蓝牙";
+"NETWORK_NOT_REACHABLE" = "您的iPhone尚未接入互联网";
+"Save" = "保存";
+"Connection Timeout" = "连接超时";
+"Send command timeout" = "发送命令超时";
+"Please select the upgrade firmware first" = "请先选择升级固件";
+"Send" = "发送";
+"Completed" = "完成";
+"Preset commands finished. Disconnect BLE now?" = "预设命令已完成。
+现在断开BLE?";
+"Disconnect" = "断开";
+"Stay" = "停留";
+
+////////////////////////////////////////////////////////////////////////////////
+// About
+
+"About" = "关于";
+"Feed Back" = "意见反馈";
+"Company" = "公司";
+"Telephone" = "电话咨询";
+"Website" = "公司官网";
+"Email" = "邮件咨询";
+"WeChat" = "微信公众号";
+"Company Info" = "公司介绍";
+"App Version" = "APP版本：";
+"SDK Version" = "SDK版本：";
+"More Infomation" = "点击查看";
+"Feasycom Company" = "深圳市飞易通科技有限公司";
+"Company Introduction" = "公司介绍";
+"Feasycom" = "深圳市飞易通科技有限公司";
+"Feasycom detail" = "飞易通是一家专注于物联网无线模块和产品的国家级高新技术企业。经过十几年无线通讯行业的技术沉淀，飞易通在为客户提供低风险产品开发、降低系统集成成本和缩短产品开发周期方面拥有丰富的经验和强大支持能力。目前飞易通产品远销欧美日韩印等国家，出货客户已有几千家以上，累计出货量达到上亿个。\n\n创新的物联网产品——飞易通以技术创新为核心驱动力，提供多样化的特色产品，包括蓝牙模块、Wi-Fi蓝牙组合模块、CAT-M模块、BLE信标、网关、蓝牙/Wi-Fi适配器、天线及RFID系列等。此外，飞易通还为这些硬件产品配套提供物联网云服务（飞易云）、支持安卓和iOS的APP及SDK等解决方案。";
+"Enable FACP by default when establishing a GATT connection with a Bluetooth device. (Enabled by default after app restart)" = "与蓝牙设备建立 GATT 通信时，是否默认启动 Facp 协议。(重启 App 后，默认打开)";
+"Log AdvertisementData when scanning Bluetooth devices for debugging purposes." = "扫描到蓝牙设备时，是否打印 AdvertisementData 日志，便于调试广播数据";
+"Enable multi-device group communication to send or manage data across multiple connected devices." = "是否启用多设备群通信能力，用于同时向多个已连接设备发送或管理数据。";
+"Prefer using the L2CAP channel for data transmission when communicating with Bluetooth devices." = "与蓝牙设备通信时，是否优先使用 L2CAP Channel 进行数据传输";
+"Enable full GATT discovery for debugging, including services, characteristics, descriptors, and descriptor values. Some devices may disconnect when descriptor values are read.(Enabled by default after app restart)" = "启用完整的GATT发现以进行调试，包括服务、特性、描述符和描述符值。读取描述符值时，某些设备可能会断开连接。(重启 App 后，默认打开)";
+"Indicates whether this device supports extended BLE scanning and enhanced connection creation." = "指示此设备是否支持扩展的BLE扫描和增强的连接创建。";
+"Supported" = "支持";
+"Not Supported" = "不支持";
+
+////////////////////////////////////////////////////////////////////////////////
+// Feed Back
+"Feedback Type" = "反馈类型";
+"Advice" = "建议";
+"Function" = "功能异常";
+"UI" = "界面异常";
+"Cooperate" = "合作";
+"Description" = "问题描述";
+"Fb_email"="*联系邮箱";
+"Please enter your email." = "请输入您的邮箱";
+"Please enter a valid email address" = "请输入有效的邮箱地址";
+"Log Export" = "日志";
+"Log List" = "日志列表";
+"newline" = "发送新行";
+"Clear logs" = "清空当前日志";
+"Password error" = "密码错误";
+"Developer debugging" = "开发者模式";
+"Unable to send 0 bytes of data" = "不能发送0字节数据";
+"Delete All" = "删除全部";
+"Confirm Deletion" = "确认删除";
+"Do you want to delete all log files?" = "是否删除所有日志文件？";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// TabBar
+
+"Communication" = "通讯";
+"Setting" = "设置";
+"Store" = "商城";
+"Forum" = "论坛";
+"About" = "关于";
+

@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  FeasyWIFI
+
+  Created by chenchanghua on 2021/12/9.
+  Copyright © 2021 Feasycom. All rights reserved.
+*/
+
+"Sort" = "排序";
+"Filter" = "筛选";
+"Sure" = "确定";
+"SelecteDevice" = "选择设备";
+"ConnectionFailed" = "连接失败";
+"ConnectionDisconnected" = "连接已断开";
+"Setting" = "设置";
+"BluetoothDistributionNetwork" = "蓝牙配网";
+"OTAUpgrade" = "OTA升级";
+"GatewayConfiguation" = "网关配置";
+"ConfigurationFailed" = "配置失败";
+"DistributionNetworkFailed" = "配网失败";
+"Failed to enter command mode" = "进入命令模式失败";
+"Failed to query module IP" = "查询模块IP失败";
+"Failed to query module version" = "查询模块版本失败";
+"Please enter the firmware name" = "请输入固件名";
+"Please configure the network first" = "请先进行配网";
+"Update successed" = "升级成功";
+"Upgrade failed, please try again" = "升级失败，请重试";
+"Restore factory settings successfully" = "恢复出厂设置成功";
+"Factory reset failed" = "恢复出厂设置失败";
+"Upgrade" = "升级";
+"Inquire" = "查询";
+"Module IP" = "模块IP:";
+"Module firmware version" = "模块固件版本";
+"Static IP" = "静态IP:";
+
+/// 设置
+"Please try again when open bluetooth" = "请开启蓝牙后重试";
+"The device is disconnected from Bluetooth" = "设备已断开蓝牙连接";
+
+/// 关于
+"About" = "关于";
+
+/// 反馈
+"FeedBack" = "反馈";
+"Advices" = "建议";
+"Dysfunction" = "功能异常";
+"AbnormalUI" = "界面异常";
+"Cooperation" = "合作";
+"Submit" = "提交";
+
+"Back" = "返回";
+"NoNetwork" = "无网络，请稍后重试";
+"Company" = "公司";
+"Telephone" = "电话";
+"Web" = "网址";
+"Mail" = "邮件";
+"Wechat" = "微信公众号";
+"Version" = "版本";
+"CompanyProfile" = "公司介绍";
+"More" = "更多";
+"CompanyName" = "深圳飞易通科技有限公司";
+"Save" = "保存";
+"Unkown" = "未命名";
+"Connecting" = "正在连接...";
+"Cancel" = "取消";
+"OK" = "确定";
+"Upgrading firmware, please wait" = "正在升级固件，请耐心等待";
+"Upgrading firmware, please wait(%ld%%)" = "正在升级固件，请耐心等待(%ld%%)";
+"OTA upgrade requires completing Bluetooth network distribution first" = "OTA升级需要先完成蓝牙配网";
+"Module firmware upgrade success" = "模块固件升级成功";
+"Module firmware upgrade fail" = "模块固件升级失败";
+"Restore factory settings" = "恢复出厂设置";
+"Do you want to restore the module to its factory settings" = "是否要将模块恢复出厂设置";
+"Restoring factory settings, please wait" = "正在恢复出厂设置，请耐心等待";
+"Firmware Name:" = "固件名称:";
+"ModuleVersion" = "模块版本:";
+"Password" = "密码:";
+"Please enter a WiFi name" = "请输入wifi名称";
+"Please enter a WiFi password" = "请输入wifi密码";
+"Please enter the preset static IP" = "请输入预设的静态IP地址";
+"Please enter the preset GW" = "请输入预设的GW";
+"Please enter the preset MASK" = "请输入预设的MASK";
+"Please enter the preset DNS" = "请输入预设的DNS";
+"SSID input error, please re-enter" = "SSID输入有误，请重新输入";
+"Static IP input error, please re-enter" = "静态IP输入有误，请重新输入";
+"Configuring network" = "正在配网…";
+"Config network success" = "配网已成功";
+"IP Address" = "IP地址:";
+"Start configuring network" = "开始配网";
+"Save to mobile photo album" = "保存到手机系统相册";
+"The picture has been saved to the phone album" = "图片已保存到手机系统相册";
+"Please input feedback content" = "请输入反馈内容";
+"Feedback success" = "反馈成功";
+"Feedback fail" = "反馈失败";
+"FeasycomProfile" = "    深圳市飞易通科技是一家专业，不断创新的高新科技企业，公司配备了资深优秀的研发团队，主要从事短距离通讯方案的设计，研发与生产。因为有着极其丰富的行业经验，我司可根据客户的各种需求，进行专业化的定制服务。目前我司在物联网、移动互联、汽车电子、健康医疗、智能家居等领域构筑了端到端的解决方案，并同众多的海内外合作伙伴展开了紧密的合作关系。\n\n    飞易通蓝牙模块产品主要涵盖蓝牙4.0,3.0,2.1等版本。针对不同客户及不同应用环境，我们已推出蓝牙4.0低功耗系列模块，蓝牙4.0双模系列模块，经典蓝牙2.1系列模块等，主要应用于蓝牙数传，蓝牙组网，蓝牙数传+音频等应用，并可为客户深度定制产品，提供一站式解决方案及服务。\n\n    另外，飞易通还推出蓝牙条码枪、蓝牙网关、TWS音箱，智能玩具等整套蓝牙解决方案，现已广泛应用于国内外高新企业，为广大终端用户提供了一种更简单、自由，一站式的通讯模式。";
+"WeChatOffical" = "    基于微信公众平台，我们推出了微信硬件平台。通过平台规定的连接协议，各种智能设备如蓝牙设备、WIFI 设备和其它移动网络设备都能方便地接入微信，完成设备一人一服务的连接。";
+"ServiceTenet" = "   敢为人先，是飞易通一直跻身于行业佼佼者的关键，在不久的将来，我司将厚积薄发，以现有的先进，专业的蓝牙模块经验，为用户提供更专业，独特，创新的一体式蓝牙技术成品。";
+"Connect" = "连接";
+"ProtocolSelect" = "协议选择";
+"MQTTConfiguring" = "MQTT配置中";
+"TCPConfiguring" = "TCP配置中";
+"TCP Client" = "TCP客户端";
+"Tcp client connecting" = "TCP客户端连接中...";
+"Tcp client disconnect" = "TCP客户端已断开";
+"Tcp client connected" = "TCP客户端已连接";
+"SEND" = "发送";
+"CLEAR" = "清除";
+"RECIEVE" = "接收";

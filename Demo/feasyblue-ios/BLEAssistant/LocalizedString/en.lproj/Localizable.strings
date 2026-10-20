@@ -1,0 +1,466 @@
+"ok" = "OK";
+"cancel" = "Cancel";
+"Back" ="Back";
+"Close" = "Close";
+
+"title" = "title";
+"message" = "message";
+
+"sort"                  ="Sort";
+"Filter"                ="Filter";
+"minimumRssi"           ="";
+
+"communication"         ="Communication";
+"properitiesDefining"   ="Modify device";
+"firmwareUpgrade"      ="Firmware upgrade";
+
+"unname"                    ="Unname";
+"disconnected"            ="Disconnect";
+"connecting" = "Connecting";
+"connected"                 ="Connected";
+"ConnectionFailed"            ="Connection failed";
+"reconnect"                 ="Reconnect";
+
+"success"                    ="OK";
+"fail"                            ="Failed";
+"sendFail"                   ="Send failed ~";
+"select"                       ="Choose";
+"sendFile"                   ="Send file";
+"stopSend"                  ="Stop";
+
+"stopScan"                  ="Stop scan";
+"scan"                         ="Scan";
+"rssiValue"                  ="-50";
+"noRightCharacteristic" = "Not match";
+
+//导航栏
+"n_read"                    ="Read";
+"n_writeRe"               ="Send&res";
+"n_write"                    ="Send";
+
+// 普通通讯界面 communication
+"communication_transmissionConfiguration" = "  Transmission Configuration  ";
+"communication_export" = "Export";
+"communication_clear" = "Clear";
+"communication_receiveTip" = "Rx:";
+"communication_byteTip" = "b";
+"communication_packageTip" = "p";
+"communication_sendoutTip" = "Tx:";
+"communication_byte" = "Bytes";
+"communication_frequency" = "Interval";
+"communication_circular" = "Loop Send";
+"communication_send" = "Send";
+"communication_sendFile" = "Send File";
+"communication_sended" = "Sended:";
+"communication_sendTotal" = "Total:";
+"communication_sendSpeed" = "Speed:";
+"communication_sendTime" = "Time:";
+
+
+"total"                        ="Total: ";
+"clickToHidden"        ="Click to hidden";
+
+"service"                     ="Service";
+"readValue"               ="(Readable)";
+"writeNoRe"               ="(Send)";
+"writeRe"                   ="(Send&response)";
+"readNoRe"                ="(Notify)";
+"readRe"                    ="(Indicate)";
+"deviceInformation"     ="Device info";
+"systemID"                 ="System ID";
+"serialNumber"           = "Serial Number String";
+"firmwareRevision"    ="Firmware Revision String";
+"softwareRevision"    ="Software Revision String";
+"hardwareRevision"    ="Hardware Revision String";
+"manufacturerName" ="Manufacturer Name String";
+"modelNumber"         ="Model Number String";
+"read"                        ="Read";
+"hex"                          ="Hexadecimal: ";
+"utf8"                          ="UTF-8: ";
+"bytes"                       ="bytes";
+"rssiHidden"              ="Hide RSSI";
+"rssiShow"                 ="Write RSSI";
+
+"forFail"                      ="Acquire failed";
+"successName"          ="Count：";
+"modifiedCount"           = "Modified count: ";
+"noServer"                 ="Can't find the service.Connect again.";
+"nameOK"                  ="Name OK!";
+"RSSIOK"                   ="RSSI OK!";
+"checkServerUUID"    ="Check the server UUID";
+"checkNotUUID"         ="Check the notify UUID";
+"checkWriUUID"         ="Check the write UUID";
+"serverUUIDOK"         ="Server UUID OK!";
+"notUUIDOK"              ="Notify UUID OK!";
+"wriUUIDOK"              ="Write UUID OK!";
+"sent"                          ="Has been sent......";
+"sendErr"                    ="Send failure ~";
+"reEqualToSe"            ="Receiving data in accordance with set";
+"reNoEqualToSe"       ="Receiving data is different from set";
+"seNoEqualRe"          ="The send data is different from set";
+"testSuccess"             ="Test success!";
+"reErr"                        ="Receive failure ~";
+"seErr"                       ="Send failure ~";
+"testOK"                     ="Test OK";
+
+"warning"                    ="Warning";
+"timeout"                     ="Running timeout";
+
+"goBack"                     ="Back";
+"firmware"                   ="firmware";
+"noSelectFirmware"    ="Not selected the firmware";
+"haveFirmware"          ="Firmware choosed, ready to update.";
+"noFile"                       ="File not existed.Please select firmware !";
+"Upgrade failed: the firmware is inappropriate" = "Upgrade failed: the firmware is inappropriate";
+"The selected firmware file is invalid, please select again" = "The selected firmware file is invalid, please select again";
+"The selected firmware does not pass the verification" = "The selected firmware does not pass the verification";
+"If you continue to use the firmware for forced upgrade, the module may become unusable. Please be careful" = "If you continue to use the firmware for forced upgrade, the module may become unusable. Please be careful";
+"Mandatory use" = "Mandatory use";
+"reselect" = "reselect";
+"unknown" = "unknown";
+
+
+"updating"                   ="Updating...";
+"upgrade_succeeded" = "upgrade_succeeded";
+"firmwareUpdata"        ="Updata";
+"checking"                   ="Checking...";
+"verificationOK"           ="Verification OK!";
+"verificationER"           ="Verification error~";
+"chooseOne"               ="Choose one";
+"transferDidFinish"      ="Upgrade successfully";
+"transferDidAbort"       ="Upgrate Interrupted ,try again!";
+"hundred"                    ="100";
+
+"question"                    ="Inquiry";
+"helloyu"                      ="Hello Yu:<br>";
+"softwareProblem"      ="Software problem";
+
+"selectFirmware"                   ="Select firmware";
+"importFirmware"                   ="Import firmware";
+"selectedFirmware"                 ="Selected:";
+"unselectedFirmware"               ="Unselected firmware";
+"model"                            ="Model";
+"version"                          ="Version";
+"currentModule"                    ="Module";
+"upgradeFirmware"                  ="Firmware";
+"upgradeAndRestoreFactorySettings" ="Upgrade and restore factory settings";
+"Auto upgrade"                     = "Auto upgrade";
+"startTheUpgrade"                  ="Start the upgrade";
+"waitForTheUpgrade"                ="Wait for the upgrade";
+"updateCompleted"                  ="Update completed";
+"updateFailed"                     ="Update failed";
+"updateFailed:timeout"             ="UpdateFailed:Timeout";
+
+"modifiedCompleted"                ="modifiedCompleted";
+"modifiedFailed"                   ="modifiedFailed";
+"readCompleted"                    ="readCompleted";
+"readFailed"                       ="readFailed";
+"Enter OTA Status Success" = "Enter OTA Status Success";
+"Enter OTA Status Success" = "Enter OTA Status Success";
+"Enter OTA Status Faild" = "Enter OTA Status Faild";
+"Disconnected BLE" = "Disconnected BLE";
+
+
+"Infomation" = "Infomation";
+"Firmware download succeeded" = "Firmware download succeeded";
+"Firmware download failed" = "Firmware download failed";
+"Prompt: Please confirm whether the firmware path is correct and valid" = "Prompt: Please confirm whether the firmware path is correct and valid";
+
+
+
+//modifiedTimeout                  =",status is TIMEOUT";
+
+"parametricModify"                 ="Parametric Modify";
+"start"                            ="Start";
+"connectionTimeout" = "Connection is time out";
+
+"FEEDBACK" = "Feedback";
+"feedback" = "Feedback";
+"Submit" = "Submit";
+"ADVICE" = "Advice";
+"FUNCTION_EXCEPTION" = "Function Exception";
+"UI_EXCEPTION" = "UI Exception";
+"COOPERATION" = "Cooperation";
+"FEEDBACK_SUCCEEDED" = "Feedback succeeded!";
+"FEEDBACK_FAILED" = "Feedback failed!";
+"OK" = "OK";
+"Please Input feedback content" = "Please Input feedback content";
+"No network" = "No network";
+"Save to system album" = "Save to system album";
+"Saved to system album" = "Saved to system album";
+
+"DOWNLOADING" = "Downloading...";
+"DOWNLOAD_SUCCEEDED" = "Download succeeded";
+"DOWNLOAD_FAILED" = "Download failed";
+
+"Import firmware" = "Import firmware";
+"Get from QQ" = "Get from QQ";
+"Get from WeChat" = "Get from WeChat";
+"Get from WeCom" = "Get from WeCom";
+"Download from web" = "Download from web";
+"Get from Documents folder" = "Get from Documents folder";
+"Please enter the download path of the firmware" = "Please enter the download path of the firmware";
+"Download file name" = "Download file name";
+"Number of modifications completed" = "Number of modifications completed";
+"None" = "None";
+"Please input a password" = "Please input a password";
+"Size: " = "Size: ";
+"Update Time: " = "Update Time: ";
+"Group: " = "Group: ";
+"Owner: " = "Owner: ";
+"Upload" = "Upload";
+"Uploading" = "Uploading";
+"Upload Progress: " = "Upload Progress: ";
+"Rename" = "Rename";
+"Return to the previous directory" = "Return to the previous directory";
+"Clear" = "Clear";
+"Not Selected" = "Not Selected";
+"Disconnected" = "Disconnected";
+"Device Connecting" = "Device Connecting……";
+"Properties: " = "Properties: ";
+
+////////////////////////////////////////////////////////////////////////////////
+// Home
+
+"DOCUMENTS" = "Documents";
+"WEB_BROWSER" = "Web Browser";
+"DOWNLOADER" = "Downloader";
+"WIFI_TRANSFER" = "WiFi Transfer";
+"SETTINGS" = "Settings";
+"ConnectedDevice" = "Connected";
+"InGroup" = "Group";
+"DisconnectAll" = "Disconn";
+"Reconnect" = "Reconn";
+"Broadcast" = "Send";
+"Mass messaging" = "Mass messaging";
+"Please enter the content to be sent" = "Please enter the content to be sent";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Common
+
+"YES" = "Yes";
+"NO" = "No";
+"OK" = "OK";
+"CANCEL" = "Cancel";
+"ERROR" = "Error";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// File System
+
+"COPY" = "Copy";
+"CUT" = "Cut";
+"PASTE" = "Paste";
+"RENAME" = "Rename";
+"DELETE" = "Delete";
+"ZIP" = "Zip";
+"EXTRACT" = "Extract";
+"EMAIL" = "Email";
+"OPEN_IN" = "Open In";
+
+"NEW_FOLDER" = "New Folder";
+"NEW_TEXT_FILE" = "New Text File";
+"PHOTO_LIBRARY" = "Photo Library";
+"CAMERA" = "Camera";
+
+"ALL" = "All";
+"FOLDER" = "Folder";
+"FILE" = "File";
+
+"COPYING" = "Copying...";
+"CUTTING" = "Cutting...";
+"REMOVING" = "Removing...";
+"ARCHIVING" = "Archiving...";
+"EXTRACTING" = "Extracting...";
+"CANCELLING" = "Cancelling...";
+
+"COPYING_FILES" = "Copying File(s)...";
+"MOVING_FILES" = "Moving File(s)...";
+
+"FINISHED_PROMPT" = "Finished!";
+
+"COPYING_FILES_FAILED" = "Copying File Failed";
+"COPYING_RECURSIVELY_FORMATTER" = "Cannot copy the folder '%@' to its subdirectory.";
+
+"MOVING_FILES_FAILED" = "Moving File Failed";
+"MOVING_RECURSIVELY_FORMATTER" = "Cannot move the folder '%@' to its subdirectory.";
+
+"EMAIL_SIZE_PROMPT" = "Email is limited to 15MB.";
+"TEXT_FILE_SIZE_PROMPT" = "Text file is limited to 20MB.";
+
+"SAVE_CHANGES" = "Save Changes";
+"SAVE_CHANGES_MESSAGE" = "There are changes made, do you want to save or discard all your changes?";
+"OPEN_TEXT_FAILED_PROMPT" = "Some file data doesn't match specified text encoding. Try other text encoding in Settings.";
+"SAVE_NAME" = "Save Name";
+"SAVE" = "Save";
+"DISCARD" = "Discard";
+"REPLACE" = "Replace";
+"IGNORE" = "Ignore";
+
+"PASSWORD_PROMPT" = "Enter file password:";
+"INVALID_PASSWORD" = "Invalid Password";
+
+"BAD_IMAGE_TITLE" = "Bad Image";
+"BAD_IMAGE_PROMPT" = "Cannot display this image, for its format is invalid.";
+
+"BAD_PDF_TITLE" = "Bad PDF";
+"BAD_PDF_PROMPT" = "Cannot display this PDF, for its format is invalid.";
+
+"SAVE_TO_PHOTO_LIBRARY" = "Save to Photo Library";
+
+"PRINT" = "Print";
+"CANNOT_PRINT_TITLE" = "Cannot Print";
+"CANNOT_PRINT_PROMPT" = "The file is not printable.";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Browser
+
+"BLANK_PAGE" = "Blank";
+"SET_HOME_PAGE" = "Set As Home Page";
+"SAVE_PAGE" = "Save This Page";
+"OPEN" = "Open";
+"COPY_LINK" = "Copy Link";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Downloader
+
+"DOWNLOAD" = "Download";
+"DOWNLOADING" = "Downloading";
+"DOWNLOADING_STARTED" = "Downloading has started";
+"DOWNLOADING_STARTED_PROMPT" = "Check 'Downloader' section";
+"NOT_NOW" = "Not now";
+"GO_THERE" = "Go there";
+"DOWNLOAD_AGAIN" = "Download Again";
+"DONE" = "Done";
+"FAILED" = "Failed";
+"STOPPED" = "Stopped";
+"DOWNLOAD_CONFIRMATION_FORMATTER" = "File '%@' has been downloaded, do you want to download it again?";
+"DT_START_STOP_ALL_TITLE" = "Start/Stop all suspending downloadings";
+"START" = "Start";
+"STOP" = "Stop";
+"START_ALL" = "Start All";
+"STOP_ALL" = "Stop All";
+"DT_CLEAR_ALL_TITLE" = "Clear Finished Downloadings";
+"DT_CLEAR_ALL_PROMPT" = "Do you want to clear all finished downloadings?";
+"DT_ALL_CLEARED_PROMPT" = "There is no finished downloadings.";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// WiFi Transfer
+
+"WIFI_STATUS_ON" = "WiFi Status: ON";
+"WIFI_STATUS_OFF" = "WiFi Status: OFF";
+"WIFI_DETAIL_FORMATTER" = "You may connect to your %@ via WiFi now. Use one of the following addresses exactly as you see them:\r\n1. http://%@:%u\r\n2. http://%@:%u";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Settings
+
+"setting" = "Setting";
+"Parameter modification" = "Parameter modification";
+"OTA" = "OTA";
+"SORTING_FILES" = "Sorting Files";
+"FSSortingMode" = "Sorting Mode";
+"FSSortingOrder" = "Sorting Order";
+"SORT_BY_NAME" = "Sort By Name";
+"SORT_BY_DATE" = "Sort By Date";
+"SORT_BY_KIND" = "Sort By Kind";
+"SORT_BY_SIZE" = "Sort By Size";
+"ASCENDING" = "Ascending";
+"DESCENDING" = "Descending";
+
+"SCREEN_ORIENTATION" = "Screen Orientation";
+"FILE_BROWSER" = "File Browser";
+"VIEWING_FILES" = "Viewing Files";
+"WEB_BROWSER" = "Web Browser";
+"LOCK_ORIENTATION" = "Lock Orientation";
+"SHOW_EXTENSIONS" = "Show Extensions";
+"VIEWING_TXT_FILES" = "Viewing TXT Files";
+"TXT_FILES" = "TXT Files";
+"HOME_PAGE" = "Home Page";
+"FONT" = "Font";
+"NAME" = "Name";
+"SIZE" = "Size";
+"ENCODING" = "Encoding";
+"FONT_SIZE" = "Font Size";
+"Password" = "PWD";
+"INPUT_QUESTION_PROMPT" = "Please enter the issue.";
+"Bluetooth is powered off" = "Bluetooth is powered off";
+"Password is more than 8 numbers" = "Password is more than 8 numbers";
+"INPUT_TOO_MUCH_PROMPT" = "The input characters is more than 512";
+"Save to photo library" = "Save to photo library";
+"Image saved" = "Image saved";
+"MODULE_NOT_MATCHED" = "Device's module is not match the file module";
+"FeasyBlue requires Bluetooth" = "Please open your Bluetooth";
+"NETWORK_NOT_REACHABLE" = "Your iPhone is not connnect to internet";
+"Save" = "Save";
+"Connection Timeout" = "Connection Timeout";
+"Send command timeout" = "Send command timeout";
+"Please select the upgrade firmware first" = "Please select the upgrade firmware first";
+"Send" = "Send";
+"Completed" = "Completed";
+"Preset commands finished. Disconnect BLE now?" = "Preset commands finished. Disconnect BLE now?";
+"Disconnect" = "Disconnect";
+"Stay" = "Stay";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// About
+
+"About" = "About";
+"Feed Back" = "Feedback";
+"Company" = "Company";
+"Telephone" = "Phone Call";
+"Website" = "Website";
+"Email" = "Email";
+"WeChat" = "WeChat";
+"Company Info" = "Company Info";
+"App Version" = "App Version:";
+"SDK Version" = "SDK Version:";
+"More Infomation" = "More Infomation";
+"Feasycom Company" = "Feasycom Company";
+"Company Introduction" = "Company Introduction";
+"Feasycom" = "Shenzhen Feasycom Technology Co., Ltd.";
+"Feasycom detail" = "Feasycom is a national high-tech enterprise focused on IoT wireless modules and solutions. With over a decade of experience in wireless communication, Feasycom helps customers achieve low-risk development, lower integration costs, and faster time-to-market. Its products are exported to Europe, North America, Japan, India, and beyond, serving thousands of clients with shipments exceeding 100 million units.\n\nInnovative IoT Solutions — Driven by technology and innovation, Feasycom offers a wide range of products, including BT modules, Wi-Fi & BT combo modules, CAT-M modules, BLE beacons, gateways, BT/Wi-Fi adapters, antennas, and RFID series. Supporting services include FeasyCloud IoT platform, Android & iOS apps, SDKs, and customized solutions.";
+"Enable FACP by default when establishing a GATT connection with a Bluetooth device. (Enabled by default after app restart)" = "Enable FACP by default when establishing a GATT connection with a Bluetooth device. (Enabled by default after app restart)";
+"Log AdvertisementData when scanning Bluetooth devices for debugging purposes." = "Log AdvertisementData when scanning Bluetooth devices for debugging purposes.";
+"Enable multi-device group communication to send or manage data across multiple connected devices." = "Enable multi-device group communication to send or manage data across multiple connected devices.";
+"Prefer using the L2CAP channel for data transmission when communicating with Bluetooth devices." = "Prefer using the L2CAP channel for data transmission when communicating with Bluetooth devices.";
+"Enable full GATT discovery for debugging, including services, characteristics, descriptors, and descriptor values. Some devices may disconnect when descriptor values are read.(Enabled by default after app restart)" = "Enable full GATT discovery for debugging, including services, characteristics, descriptors, and descriptor values. Some devices may disconnect when descriptor values are read.(Enabled by default after app restart)";
+"Indicates whether this device supports extended BLE scanning and enhanced connection creation." = "Indicates whether this device supports extended BLE scanning and enhanced connection creation.";
+"Supported" = "Supported";
+"Not Supported" = "Not Supported";
+
+////////////////////////////////////////////////////////////////////////////////
+// Feed Back
+"Feedback Type" = "Feedback Type";
+"Advice" = "Suggest";
+"Function" = "Function";
+"UI" = "Interface";
+"Cooperate" = "Cooperate";
+"Description" = "Description";
+"Fb_email"="*Email";
+"Please enter your email."="Please enter your email.";
+"Please enter a valid email address" = "Please enter a valid email address";
+"Log Export" = "Log";
+"Log List" = "Log";
+"newline" = " newline";
+"Clear logs" = "Clear logs";
+"Password error" = "Password error.";
+"Developer debugging" = "Developer";
+"Unable to send 0 bytes of data" = "Unable to send 0 bytes of data.";
+"Delete All" = "Delete All";
+"Confirm Deletion" = "Confirm Deletion";
+"Do you want to delete all log files?" = "Do you want to delete all log files?";
+
+////////////////////////////////////////////////////////////////////////////////
+// TabBar
+
+"Communication" = "Communication";
+"Setting" = "Setting";
+"Store" = "Store";
+"Forum" = "Forum";
+"About" = "About";

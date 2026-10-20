@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  BLEAssistant
+
+  Created by 余明悦 on 16/10/8.
+  Copyright © 2016年 feasycom. All rights reserved.
+*/
+CFBundleDisplayName="FeasyBlue";
+NSBluetoothAlwaysUsageDescription = "Used to scan, connect, and listen to BLE device events.";
