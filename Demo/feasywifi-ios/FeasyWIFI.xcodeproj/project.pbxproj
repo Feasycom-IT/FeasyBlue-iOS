@@ -13,6 +13,7 @@
 		07A4CDF020EDBC0D00D03840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A4CDEE20EDBC0D00D03840 /* LaunchScreen.storyboard */; };
 		07A4CDF320EDBC0D00D03840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A4CDF220EDBC0D00D03840 /* main.m */; };
 		07A4CDFD20EDBC0D00D03840 /* FeasyWIFIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A4CDFC20EDBC0D00D03840 /* FeasyWIFIUITests.m */; };
+		5CE0B0012F00000100A1B2C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0B0022F00000100A1B2C3 /* SceneDelegate.m */; };
 		83E24845246E2A8C007D9485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83E24847246E2A8C007D9485 /* InfoPlist.strings */; };
 		84089F3C2BFC77640018D3C1 /* FBlueReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 84089F3A2BFC77640018D3C1 /* FBlueReadMe.md */; };
 		8412D2FA275B37C000573227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D2F8275B37C000573227 /* AppDelegate.m */; };
@@ -101,6 +102,8 @@
 		07A4CDFE20EDBC0D00D03840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1345B9E3F708DFB1A5EB71EB /* Pods-FeasyWIFIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeasyWIFIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeasyWIFIUITests/Pods-FeasyWIFIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38435EA389F1FF4D422B56B7 /* libPods-FeasyWIFIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FeasyWIFIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE0B0022F00000100A1B2C3 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5CE0B0032F00000100A1B2C3 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		837E36E222B220B400B489E9 /* FeasyWIFI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeasyWIFI.entitlements; sourceTree = "<group>"; };
 		83E2483F246E284B007D9485 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		83E24846246E2A8C007D9485 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -310,6 +313,8 @@
 			children = (
 				8412D2F9275B37C000573227 /* AppDelegate.h */,
 				8412D2F8275B37C000573227 /* AppDelegate.m */,
+				5CE0B0032F00000100A1B2C3 /* SceneDelegate.h */,
+				5CE0B0022F00000100A1B2C3 /* SceneDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -744,9 +749,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FeasyWIFI/Pods-FeasyWIFI-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FeasyWIFI/Pods-FeasyWIFI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -793,6 +802,7 @@
 				8412D421275F34F600573227 /* UIView+FWGetCurrentVC.m in Sources */,
 				8412D3F7275B749100573227 /* NSData+DataToHexString.m in Sources */,
 				8412D2FA275B37C000573227 /* AppDelegate.m in Sources */,
+				5CE0B0012F00000100A1B2C3 /* SceneDelegate.m in Sources */,
 				8446F60F277D55BA0066D64D /* UIColor+FEHexString.m in Sources */,
 				8412D43B275F69A700573227 /* FWfeedbackController.m in Sources */,
 				8412D3D0275B742700573227 /* FWADRootClass.m in Sources */,
@@ -887,6 +897,7 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -931,7 +942,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -948,6 +959,7 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -986,7 +998,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -999,11 +1011,12 @@
 			baseConfigurationReference = BC3C41C1B0F11A035950C4B2 /* Pods-FeasyWIFI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = FeasyWIFI/FeasyWIFI.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4EBA944459;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1013,7 +1026,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FeasyWIFI/FeasyWIFI.pch;
 				INFOPLIST_FILE = FeasyWIFI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1050,11 +1063,12 @@
 			baseConfigurationReference = B38234CB9A71C103A7208894 /* Pods-FeasyWIFI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = FeasyWIFI/FeasyWIFI.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4EBA944459;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1064,7 +1078,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FeasyWIFI/FeasyWIFI.pch;
 				INFOPLIST_FILE = FeasyWIFI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

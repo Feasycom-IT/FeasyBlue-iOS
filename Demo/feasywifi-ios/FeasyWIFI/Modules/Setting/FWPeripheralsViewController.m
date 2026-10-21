@@ -34,7 +34,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         self.bluetoothSDK = [FEBluetoothSDK sharedFEBluetoothSDK];
-        self.bluetoothSDK.isShowLog = YES;
+        self.bluetoothSDK.isShowLog = NO; // 设为 YES 可在控制台打印每条扫描到的广播包
         [self.bluetoothSDK stateChange:^(CBCentralManager * _Nonnull manager) {
             if (manager.state == CBManagerStatePoweredOff) {
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"CBManagerStatePoweredOffNotification" object:nil];

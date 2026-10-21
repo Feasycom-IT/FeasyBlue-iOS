@@ -85,6 +85,7 @@
 		EC9F2E3A30777F3F00A058D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC9F2E3730777F3F00A058D0 /* README.md */; };
 		EC9F2E3B30777F3F00A058D0 /* libFEBluetoothSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9F2E3630777F3F00A058D0 /* libFEBluetoothSDK.a */; };
 		F07EBDEBF5FEEB7E8CA79691 /* libPods-BLEAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE593BD05C51F551A0724274 /* libPods-BLEAssistant.a */; };
+		5CE0A0012F00000100A1B2C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0A0022F00000100A1B2C3 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -246,6 +247,8 @@
 		EC9F2E3430777F3F00A058D0 /* FSCError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCError.h; sourceTree = "<group>"; };
 		EC9F2E3630777F3F00A058D0 /* libFEBluetoothSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFEBluetoothSDK.a; sourceTree = "<group>"; };
 		EC9F2E3730777F3F00A058D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5CE0A0022F00000100A1B2C3 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5CE0A0032F00000100A1B2C3 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +288,8 @@
 			children = (
 				840F6AD32703491F005FD86B /* AppDelegate.h */,
 				840F6AD22703491F005FD86B /* AppDelegate.m */,
+				5CE0A0032F00000100A1B2C3 /* SceneDelegate.h */,
+				5CE0A0022F00000100A1B2C3 /* SceneDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -782,6 +787,7 @@
 				TargetAttributes = {
 					D098B45F1D41FB350093CF58 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4EBA944459;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -901,6 +907,7 @@
 				844E4BCF270416B30009352F /* MemoryInfo.m in Sources */,
 				84EEC6A52F8F705200095E92 /* FEConnectedPeripheralsVC.m in Sources */,
 				840F6AD42703491F005FD86B /* AppDelegate.m in Sources */,
+				5CE0A0012F00000100A1B2C3 /* SceneDelegate.m in Sources */,
 				EABD7C362ED5516900B73215 /* FEFeedbackViewController.m in Sources */,
 				844E4BCB270416B30009352F /* FECharacteristicViewController.m in Sources */,
 				8448B87F2EEAC038007BAA01 /* FEDevelopDebugVC.m in Sources */,
@@ -1013,6 +1020,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -1047,7 +1055,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1063,6 +1071,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -1091,7 +1100,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1105,10 +1114,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20260818;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4EBA944459;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1118,7 +1128,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BLEAssistant/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = BLEAssistant/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1177,10 +1187,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_EXPLICIT_MODULES = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20260818;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4EBA944459;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1190,7 +1201,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BLEAssistant/Global/PrefixHeader.pch";
 				INFOPLIST_FILE = BLEAssistant/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

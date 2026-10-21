@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 #platform :ios, '9.0'
-platform :ios, '10.0'
+platform :ios, '15.0'
 
 target 'FeasyWIFI' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
@@ -25,4 +25,19 @@ target 'FeasyWIFI' do
 
   end
 
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |t|
+    t.build_configurations.each do |c|
+      c.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      c.build_settings['CLANG_ENABLE_EXPLICIT_MODULES'] = 'NO'
+    end
+  end
+
+  Dir.glob('Pods/AFNetworking/**/*.m').each do |file|
+    text = File.read(file)
+    next unless text.include?('#import <netinet6/in6.h>')
+    File.write(file, text.gsub('#import <netinet6/in6.h>', '#import <netinet/in.h>'))
+  end
 end
